@@ -21,7 +21,7 @@ namespace WardenCore.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("wardenLocal", throwIfV1Schema: false)
+            : base("wardenAuth", throwIfV1Schema: false)
         {
         }
 

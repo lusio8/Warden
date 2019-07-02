@@ -45,7 +45,24 @@ namespace WardenCore.Library
            
 
     }
+        public bool insertTournament(Tournament t, SqlConnection cnn)
+        {
 
+            string sql = string.Format("INSERT INTO[dbo].[Event] ([EventName],[EventDate],[GameModeId]) VALUES ({0}, {1}, {2})", t.name, t.date, t.gmid);
+
+            SqlCommand cmd = new SqlCommand(sql, cnn);
+            int toReturn = cmd.ExecuteNonQuery();
+            return toReturn > 0;
+            
+
+        }
+
+        public bool insertScore(Score s, SqlConnection cnn)
+        {
+
+            //string sql = string.Format("INSERT INTO[dbo].[Event] ([EventName],[EventDate],[GameModeId]) VALUES ({0}, {1}, {2})"
+            return false;
+        }
 
         public IEnumerable<Dictionary<string, object>> Serialize(SqlDataReader reader)
         {

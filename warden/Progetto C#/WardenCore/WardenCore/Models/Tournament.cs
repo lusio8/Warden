@@ -7,8 +7,9 @@ namespace WardenCore.Models
 {
     public class Tournament
     {
-        public string name { get; set; }
-        public DateTime date { get; set; }
+        public string name { get; set; } /* name of the event */
+        public DateTime date { get; set; } /* date of the event */
+        public int gmid { get; set; } /* game mode id */
 
     }
 }

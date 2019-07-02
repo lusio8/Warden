@@ -22,9 +22,16 @@ namespace WardenCore
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
+                    "~/Scripts/knockout-3.4.2.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/widget").Include(
+                    "~/Scripts/createTournament.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/reset.css",
+                      "~/Content/main.css"));
         }
     }
 }

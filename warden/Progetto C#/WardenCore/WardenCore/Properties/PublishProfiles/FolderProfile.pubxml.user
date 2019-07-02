@@ -240,32 +240,47 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Diagnostics.DiagnosticSource.dll">
       <publishTime>07/19/2017 10:01:30</publishTime>
     </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>10/01/2013 20:54:22</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>02/01/2018 11:20:56</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>12/11/2013 05:50:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>06/27/2014 02:05:54</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>02/01/2018 11:16:32</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 14:26:04</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>02/01/2018 11:16:56</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>02/01/2018 11:20:56</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>02/01/2018 11:20:56</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>02/01/2018 11:20:56</publishTime>
+      <publishTime>11/27/2018 18:19:00</publishTime>
     </File>
     <File Include="bin/WardenCore.dll">
-      <publishTime>10/23/2018 17:13:34</publishTime>
+      <publishTime>07/02/2019 17:05:27</publishTime>
     </File>
     <File Include="bin/WardenCore.pdb">
-      <publishTime>10/23/2018 17:13:34</publishTime>
+      <publishTime>07/02/2019 17:05:27</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 12:57:34</publishTime>
@@ -294,6 +309,42 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/bootstrap.min.css.map">
       <publishTime>10/23/2018 16:24:55</publishTime>
     </File>
+    <File Include="Content/img/bg-1-seconda-prova.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-1.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-2-seconda-prova.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-2.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-3-seconda-prova.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-3.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-4-seconda-prova.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-4.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-5-seconda-prova.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/img/bg-5.jpg">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/main.css">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
+    <File Include="Content/reset.css">
+      <publishTime>10/24/2018 14:31:55</publishTime>
+    </File>
     <File Include="Content/Site.css">
       <publishTime>10/23/2018 16:24:53</publishTime>
     </File>
@@ -318,11 +369,32 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Global.asax">
       <publishTime>10/23/2018 16:24:53</publishTime>
     </File>
+    <File Include="html/creatorneo.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
+    <File Include="html/home.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
+    <File Include="html/index.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
+    <File Include="html/torneidisponibili.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
+    <File Include="html/torneipersonali.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
+    <File Include="html/torneo.html">
+      <publishTime>10/24/2018 14:21:19</publishTime>
+    </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>10/23/2018 16:24:55</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>10/23/2018 16:24:55</publishTime>
+    </File>
+    <File Include="Scripts/createTournament.js">
+      <publishTime>11/15/2018 18:12:50</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.js">
       <publishTime>10/23/2018 16:24:56</publishTime>
@@ -354,6 +426,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
       <publishTime>10/23/2018 16:25:01</publishTime>
     </File>
+    <File Include="Scripts/knockout-3.4.2.js">
+      <publishTime>11/15/2018 15:53:24</publishTime>
+    </File>
+    <File Include="Scripts/main.js">
+      <publishTime>10/29/2018 16:18:53</publishTime>
+    </File>
     <File Include="Scripts/modernizr-2.8.3.js">
       <publishTime>10/23/2018 16:25:00</publishTime>
     </File>
@@ -373,7 +451,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2018 16:25:02</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>10/23/2018 16:25:02</publishTime>
+      <publishTime>11/05/2018 16:53:42</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
       <publishTime>10/23/2018 16:25:02</publishTime>
@@ -391,7 +469,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2018 16:25:02</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>10/23/2018 16:25:02</publishTime>
+      <publishTime>11/05/2018 16:33:10</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>10/23/2018 16:24:53</publishTime>
@@ -399,8 +477,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>10/23/2018 16:24:53</publishTime>
     </File>
+    <File Include="Views/Home/Dashboard.cshtml">
+      <publishTime>11/15/2018 15:59:46</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>10/23/2018 16:24:53</publishTime>
+    </File>
+    <File Include="Views/Home/_CreateTournament.cshtml">
+      <publishTime>11/15/2018 16:14:51</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>10/23/2018 16:25:02</publishTime>
@@ -427,7 +511,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2018 16:25:02</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>10/23/2018 16:25:02</publishTime>
+      <publishTime>11/15/2018 16:00:44</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>10/23/2018 16:25:02</publishTime>
@@ -439,7 +523,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/23/2018 16:24:53</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/23/2018 17:13:35</publishTime>
+      <publishTime>07/02/2019 16:16:55</publishTime>
     </File>
   </ItemGroup>
 </Project>
